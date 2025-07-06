@@ -775,7 +775,7 @@ a:hover,
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); }
 .modal-input,
-.modal-textes {
+.modal-textarea {
     width: 100%;
     background-color: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -795,11 +795,11 @@ a:hover,
     fill: #4d5ae5; }
 
 
-.form-group-textes {
+.form-group-textarea {
     margin-bottom: 16px;
 }
 
-.modal-textes {
+.modal-textarea {
     height: 120px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -810,8 +810,8 @@ a:hover,
 
 .modal-input:focus,
 .modal-input:hover,
-.modal-textes:focus,
-.modal-textes:hover {
+.modal-textarea:focus,
+.modal-textarea:hover {
     border-color: #4d5ae5;
 }
     
